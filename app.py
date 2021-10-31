@@ -54,6 +54,8 @@ uploaded_file = st.file_uploader("Choose a image file", type=".nii.gz")
 if uploaded_file is not None:
     fh = nib.FileHolder(fileobj=GzipFile(fileobj=BytesIO(uploaded_file.read())))
     nifti = nib.Nifti1Image.from_file_map({'header': fh, 'image': fh})
+    os.makedirs('nifti/original',exist_ok=True)
+    os.makedirs('nifti/preprocessed',exist_ok=True)
     nib.save(nifti,'nifti/original/original.nii.gz')
     img = np.array(nifti.dataobj)
     img = check_orientation(nifti, img)
