@@ -35,6 +35,5 @@ Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.1.0
 streamlit==1.1.0
-nibabel==3.2.1
 matplotlib
 opencv-python==4.5.4
