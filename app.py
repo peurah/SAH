@@ -66,9 +66,18 @@ if uploaded_file is not None:
         os.system('python preprocess.py nifti/original nifti/preprocessed')
         os.system('python run.py --task inference --config job/config.ini --job-dir job')
         st.title('ready, showing the results')
-        os.remove('job/dataset_split.csv')
-        os.remove('job/img.csv')
-        os.remove('inferred.csv')
+        try:
+            os.remove('job/dataset_split.csv')
+        except:
+            pass
+        try:
+            os.remove('job/img.csv')
+        except:
+            pass
+        try:
+            os.remove('inferred.csv')
+        except:
+            pass
         if predict:
             st.title('here1')
             img_nif = nib.load('nifti/preprocessed/original.nii.gz')
