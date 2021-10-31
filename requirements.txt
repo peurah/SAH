@@ -36,4 +36,4 @@ wrapt==1.12.1
 zipp==3.1.0
 streamlit==1.1.0
 matplotlib
-opencv-python==4.5.4
+opencv-python
