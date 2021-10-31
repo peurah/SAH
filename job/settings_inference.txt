@@ -1,0 +1,114 @@
+Input params at 2021-10-31 22:47:02.
+[CUSTOM]
+-- num_classes: 2
+-- output_prob: False
+-- label_normalisation: False
+-- softmax: True
+-- min_sampling_ratio: 0
+-- compulsory_labels: (0, 1)
+-- rand_samples: 0
+-- min_numb_labels: 1
+-- proba_connect: True
+-- evaluation_units: foreground
+-- label: ()
+-- image: ('img',)
+-- inferred: ()
+-- sampler: ()
+-- weight: ()
+-- name: net_segment
+[CONFIG_FILE]
+-- path: job/config.ini
+[IMG]
+-- csv_file: 
+-- path_to_search: C:/Users/HUS56590733/Desktop/sah_website/nifti/preprocessed
+-- filename_contains: None
+-- filename_not_contains: ()
+-- filename_removefromid: 
+-- interp_order: 1
+-- loader: None
+-- pixdim: ()
+-- axcodes: ()
+-- spatial_window_size: (256, 256, 1)
+[SYSTEM]
+-- cuda_devices: 
+-- num_threads: 4
+-- num_gpus: 1
+-- job_dir: job
+-- log_dir: job\logs
+-- dataset_split_file: dataset_split.csv
+-- event_handler: ('model_saver', 'model_restorer', 'sampler_threading', 'apply_gradients', 'output_interpreter', 'console_logger', 'tensorboard_logger', 'performance_logger')
+-- iteration_generator: iteration_generator
+-- action: inference
+-- model_dir: C:\Users\HUS56590733\Desktop\sah_website\job
+[NETWORK]
+-- name: nonewnet
+-- activation_function: prelu
+-- batch_size: 24
+-- smaller_final_batch_mode: pad
+-- decay: 0.0001
+-- reg_type: L2
+-- volume_padding_size: (0, 0, 0)
+-- volume_padding_mode: minimum
+-- volume_padding_to_size: (0,)
+-- window_sampling: uniform
+-- uniform_sampler_positive_fraction: 0.85
+-- force_output_identity_resizing: False
+-- queue_length: 512
+-- multimod_foreground_type: and
+-- histogram_ref_file: histogram_ref_file.txt
+-- norm_type: percentile
+-- cutoff: (0.01, 0.99)
+-- foreground_type: otsu_plus
+-- normalisation: False
+-- rgb_normalisation: False
+-- whitening: False
+-- normalise_foreground_only: False
+-- weight_initializer: he_normal
+-- bias_initializer: zeros
+-- keep_prob: 1.0
+-- weight_initializer_args: {}
+-- bias_initializer_args: {}
+[TRAINING]
+-- optimiser: adam
+-- sample_per_volume: 32
+-- rotation_angle: ()
+-- rotation_angle_x: (-20.0, 20.0)
+-- rotation_angle_y: ()
+-- rotation_angle_z: ()
+-- scaling_percentage: (-20.0, 20.0)
+-- isotropic_scaling: False
+-- antialiasing: True
+-- bias_field_range: ()
+-- bf_order: 3
+-- random_flipping_axes: (0,)
+-- do_elastic_deformation: False
+-- num_ctrl_points: 4
+-- deformation_sigma: 15
+-- proportion_to_deform: 0.5
+-- lr: 0.0001
+-- lr_stop_value: 1e-06
+-- lr_decay_window: 500
+-- loss_type: Dice
+-- starting_iter: -1
+-- save_every_n: 100
+-- tensorboard_every_n: 20
+-- max_iter: 100000
+-- max_checkpoints: 1
+-- validation_every_n: 20
+-- validation_max_iter: 1
+-- exclude_fraction_for_validation: 0.0
+-- exclude_fraction_for_inference: 0.0
+-- vars_to_restore: 
+-- vars_to_freeze: 
+-- patience: 100
+-- early_stopping_mode: mean
+-- dice_epsilon: 1.0
+[INFERENCE]
+-- spatial_window_size: ()
+-- inference_iter: -1
+-- dataset_to_infer: all
+-- save_seg_dir: 
+-- output_postfix: _niftynet_out
+-- output_interp_order: 1
+-- border: (0, 0, 0)
+-- fill_constant: 0.0

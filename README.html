@@ -1,0 +1,35 @@
+<h1>SAH Segmentation</h1>
+<h3>Introduction</h3>
+<p>This document describes the usage of the SAH segmentation tool developed by HUS and CGI.
+Basic skills in working with Python scripts are required to use the tool.</p>
+<h3>Steps</h3>
+<ol>
+<li>
+<p>The program requires Python 3, and it has been tested with version 3.7.
+Install the required packages:</p>
+<pre><code>pip install -r requirements.txt
+</code></pre>
+<p>Note: If you have a machine with a GPU and CUDA 10.0, you can replace <code>tensorflow-cpu</code> with <code>tensorflow-gpu</code> in the requirements file for significantly faster inference.</p>
+</li>
+<li>
+<p>We assume that the original CT images are in DICOM format, inside the <code>&lt;dicom_dir&gt;</code> directory, with each patient in its own subdirectory.
+The algorithm takes the images in NIFTI format, downsampled to 256&times;256 pixels and windowed to 0&ndash;150 HU.
+Run the preprocessing script to convert the files and save the results to <code>&lt;nifti_dir&gt;</code>:</p>
+<pre><code>python preprocess.py &lt;dicom_dir&gt; &lt;nifti_dir&gt;
+</code></pre>
+</li>
+<li>
+<p>Add the NIFTI image path to <code>job/config.ini</code> as the <code>path_to_search</code> value:</p>
+<pre><code>[img]
+path_to_search = &lt;nifti_dir&gt;
+</code></pre>
+</li>
+<li>
+<p>Run the algorithm:</p>
+<pre><code>python run.py --task inference --config job/config.ini --job-dir job
+</code></pre>
+</li>
+<li>
+<p>The segmentations are now available as NIFTI files in <code>job/predictions</code>.</p>
+</li>
+</ol>

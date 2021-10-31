@@ -1,0 +1,1878 @@
+INFO:niftynet:2021-10-31 18:43:24,677: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 18:43:24,677: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 18:43:24,678: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+CRITICAL:niftynet:2021-10-31 18:43:24,678: no file matched based on this matcher: 
+
+Match file names and extract subject_ids from: 
+-- path to search: ('C:\\Users\\HUS56590733\\Desktop\\sah_website\\nifti\\preprocessed',)
+
+WARNING:niftynet:2021-10-31 18:43:24,679: Ignoring input section: [img], due to the following error:
+WARNING:niftynet:2021-10-31 18:43:24,679: ValueError()
+CRITICAL:niftynet:2021-10-31 18:43:24,682: Empty filename lists, please check the csv files (removing csv_file keyword if it is in the config file to automatically search folders and generate new csv files again).
+
+Please note in the matched file names, each subject id are created by removing all keywords listed `filename_contains` in the config.
+E.g., `filename_contains=foo, bar` will match file foo_subject42_bar.nii.gz, and the subject id is _subject42_.
+
+
+INFO:niftynet:2021-10-31 18:45:57,998: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 18:45:57,998: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 18:45:57,998: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+CRITICAL:niftynet:2021-10-31 18:45:57,999: no file matched based on this matcher: 
+
+Match file names and extract subject_ids from: 
+-- path to search: ('C:\\Users\\HUS56590733\\Desktop\\sah_website\\nifti\\preprocessed',)
+
+WARNING:niftynet:2021-10-31 18:45:58,000: Ignoring input section: [img], due to the following error:
+WARNING:niftynet:2021-10-31 18:45:58,000: ValueError()
+CRITICAL:niftynet:2021-10-31 18:45:58,002: Empty filename lists, please check the csv files (removing csv_file keyword if it is in the config file to automatically search folders and generate new csv files again).
+
+Please note in the matched file names, each subject id are created by removing all keywords listed `filename_contains` in the config.
+E.g., `filename_contains=foo, bar` will match file foo_subject42_bar.nii.gz, and the subject id is _subject42_.
+
+
+INFO:niftynet:2021-10-31 18:48:59,705: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 18:48:59,706: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 18:48:59,706: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+CRITICAL:niftynet:2021-10-31 18:48:59,707: no file matched based on this matcher: 
+
+Match file names and extract subject_ids from: 
+-- path to search: ('C:\\Users\\HUS56590733\\Desktop\\sah_website\\nifti\\preprocessed',)
+
+WARNING:niftynet:2021-10-31 18:48:59,708: Ignoring input section: [img], due to the following error:
+WARNING:niftynet:2021-10-31 18:48:59,708: ValueError()
+CRITICAL:niftynet:2021-10-31 18:48:59,711: Empty filename lists, please check the csv files (removing csv_file keyword if it is in the config file to automatically search folders and generate new csv files again).
+
+Please note in the matched file names, each subject id are created by removing all keywords listed `filename_contains` in the config.
+E.g., `filename_contains=foo, bar` will match file foo_subject42_bar.nii.gz, and the subject id is _subject42_.
+
+
+INFO:niftynet:2021-10-31 18:52:06,811: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 18:52:06,812: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 18:52:06,812: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 18:52:06,817: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 18:52:06,820: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 18:52:06,877: initialised window instance
+INFO:niftynet:2021-10-31 18:52:06,878: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 18:52:06,884: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 18:52:06,888: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 18:52:07,166: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 18:52:07,187: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 18:52:07,203: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 18:52:07,722: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 18:52:08,001: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 18:52:08,002: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 18:52:08,003: yielding 36 locations from image
+INFO:niftynet:2021-10-31 18:52:12,072: inference iter 0,  (4.218s)
+INFO:niftynet:2021-10-31 18:52:16,138: inference iter 1,  (4.012s)
+INFO:niftynet:2021-10-31 18:52:16,139: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 18:52:16,139: cleaning up...
+INFO:niftynet:2021-10-31 18:52:16,140: stopping sampling threads
+INFO:niftynet:2021-10-31 18:52:16,148: SegmentationApplication stopped (time in second 8.52).
+INFO:niftynet:2021-10-31 18:54:41,252: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 18:54:41,253: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 18:54:41,256: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 18:54:41,256: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 18:54:41,263: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 18:54:41,310: initialised window instance
+INFO:niftynet:2021-10-31 18:54:41,310: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 18:54:41,317: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 18:54:41,319: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 18:54:41,513: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 18:54:41,535: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 18:54:41,551: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 18:54:42,121: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 18:54:42,343: grid sampling image sizes: {'image': (256, 256, 34, 1, 1)}
+INFO:niftynet:2021-10-31 18:54:42,344: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 18:54:42,345: yielding 34 locations from image
+INFO:niftynet:2021-10-31 18:54:46,274: inference iter 0,  (4.055s)
+WARNING:niftynet:2021-10-31 18:54:50,229: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 18:54:50,276: inference iter 1,  (3.944s)
+INFO:niftynet:2021-10-31 18:54:50,276: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 18:54:50,276: cleaning up...
+INFO:niftynet:2021-10-31 18:54:50,277: stopping sampling threads
+INFO:niftynet:2021-10-31 18:54:50,284: SegmentationApplication stopped (time in second 8.29).
+INFO:niftynet:2021-10-31 19:24:15,003: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:24:15,004: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:24:15,005: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:24:15,005: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:24:15,012: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:24:15,057: initialised window instance
+INFO:niftynet:2021-10-31 19:24:15,057: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:24:15,062: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:24:15,065: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:24:15,254: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:24:15,277: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:24:15,292: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:24:15,855: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:24:16,073: grid sampling image sizes: {'image': (256, 256, 32, 1, 1)}
+INFO:niftynet:2021-10-31 19:24:16,073: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:24:16,076: yielding 32 locations from image
+INFO:niftynet:2021-10-31 19:24:19,924: inference iter 0,  (3.975s)
+WARNING:niftynet:2021-10-31 19:24:23,740: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:24:23,782: inference iter 1,  (3.806s)
+INFO:niftynet:2021-10-31 19:24:23,783: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:24:23,785: cleaning up...
+INFO:niftynet:2021-10-31 19:24:23,785: stopping sampling threads
+INFO:niftynet:2021-10-31 19:24:23,792: SegmentationApplication stopped (time in second 8.07).
+INFO:niftynet:2021-10-31 19:43:01,300: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:43:01,301: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:43:01,301: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:43:01,302: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:43:01,309: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:43:01,351: initialised window instance
+INFO:niftynet:2021-10-31 19:43:01,352: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:43:01,358: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:43:01,361: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:43:01,541: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:43:01,564: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:43:01,580: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:43:02,107: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:43:02,380: grid sampling image sizes: {'image': (256, 256, 32, 1, 1)}
+INFO:niftynet:2021-10-31 19:43:02,380: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:43:02,381: yielding 32 locations from image
+INFO:niftynet:2021-10-31 19:43:06,336: inference iter 0,  (4.096s)
+WARNING:niftynet:2021-10-31 19:43:10,209: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:43:10,258: inference iter 1,  (3.863s)
+INFO:niftynet:2021-10-31 19:43:10,258: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:43:10,259: cleaning up...
+INFO:niftynet:2021-10-31 19:43:10,259: stopping sampling threads
+INFO:niftynet:2021-10-31 19:43:10,268: SegmentationApplication stopped (time in second 8.25).
+INFO:niftynet:2021-10-31 19:44:33,379: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:44:33,380: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:44:33,380: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:44:33,381: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:44:33,388: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:44:33,434: initialised window instance
+INFO:niftynet:2021-10-31 19:44:33,434: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:44:33,440: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:44:33,443: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:44:33,630: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:44:33,654: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:44:33,671: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:44:34,212: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:44:34,500: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 19:44:34,500: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:44:34,502: yielding 36 locations from image
+INFO:niftynet:2021-10-31 19:44:38,427: inference iter 0,  (4.075s)
+WARNING:niftynet:2021-10-31 19:44:42,312: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:44:42,353: inference iter 1,  (3.875s)
+INFO:niftynet:2021-10-31 19:44:42,353: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:44:42,353: cleaning up...
+INFO:niftynet:2021-10-31 19:44:42,353: stopping sampling threads
+INFO:niftynet:2021-10-31 19:44:42,360: SegmentationApplication stopped (time in second 8.24).
+INFO:niftynet:2021-10-31 19:46:10,372: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:46:10,373: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:46:10,377: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:46:10,377: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:46:10,384: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:46:10,431: initialised window instance
+INFO:niftynet:2021-10-31 19:46:10,431: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:46:10,436: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:46:10,441: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:46:10,625: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:46:10,647: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:46:10,663: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:46:11,219: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:46:11,439: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 19:46:11,439: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:46:11,443: yielding 36 locations from image
+INFO:niftynet:2021-10-31 19:46:15,324: inference iter 0,  (4.030s)
+INFO:niftynet:2021-10-31 19:46:19,212: inference iter 1,  (3.867s)
+WARNING:niftynet:2021-10-31 19:46:19,222: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:46:19,267: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:46:19,268: cleaning up...
+INFO:niftynet:2021-10-31 19:46:19,268: stopping sampling threads
+INFO:niftynet:2021-10-31 19:46:19,276: SegmentationApplication stopped (time in second 8.19).
+INFO:niftynet:2021-10-31 19:47:31,021: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:47:31,022: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:47:31,023: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:47:31,023: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:47:31,030: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:47:31,077: initialised window instance
+INFO:niftynet:2021-10-31 19:47:31,077: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:47:31,083: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:47:31,085: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:47:31,267: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:47:31,289: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:47:31,306: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:47:31,822: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:47:32,096: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 19:47:32,096: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:47:32,099: yielding 36 locations from image
+INFO:niftynet:2021-10-31 19:47:36,009: inference iter 0,  (4.075s)
+INFO:niftynet:2021-10-31 19:47:39,876: inference iter 1,  (3.847s)
+WARNING:niftynet:2021-10-31 19:47:39,886: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:47:39,926: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:47:39,926: cleaning up...
+INFO:niftynet:2021-10-31 19:47:39,927: stopping sampling threads
+INFO:niftynet:2021-10-31 19:47:39,935: SegmentationApplication stopped (time in second 8.20).
+INFO:niftynet:2021-10-31 19:50:08,860: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:50:08,861: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:50:08,861: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:50:08,862: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:50:08,868: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:50:08,913: initialised window instance
+INFO:niftynet:2021-10-31 19:50:08,914: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:50:08,921: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:50:08,924: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:50:09,105: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:50:09,126: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:50:09,142: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:50:09,660: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:50:09,936: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 19:50:09,936: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:50:09,937: yielding 36 locations from image
+INFO:niftynet:2021-10-31 19:50:13,890: inference iter 0,  (4.097s)
+WARNING:niftynet:2021-10-31 19:50:17,783: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:50:17,826: inference iter 1,  (3.883s)
+INFO:niftynet:2021-10-31 19:50:17,826: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:50:17,828: cleaning up...
+INFO:niftynet:2021-10-31 19:50:17,828: stopping sampling threads
+INFO:niftynet:2021-10-31 19:50:17,835: SegmentationApplication stopped (time in second 8.27).
+INFO:niftynet:2021-10-31 19:53:07,408: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:53:07,409: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:53:07,412: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:53:07,413: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:53:07,419: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:53:07,470: initialised window instance
+INFO:niftynet:2021-10-31 19:53:07,470: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:53:07,476: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:53:07,479: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:53:07,707: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:53:07,731: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:53:07,747: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:53:08,321: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:53:08,586: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 19:53:08,586: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:53:08,587: yielding 36 locations from image
+INFO:niftynet:2021-10-31 19:53:12,557: inference iter 0,  (4.152s)
+INFO:niftynet:2021-10-31 19:53:16,476: inference iter 1,  (3.900s)
+WARNING:niftynet:2021-10-31 19:53:16,487: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:53:16,527: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:53:16,527: cleaning up...
+INFO:niftynet:2021-10-31 19:53:16,529: stopping sampling threads
+INFO:niftynet:2021-10-31 19:53:16,536: SegmentationApplication stopped (time in second 8.36).
+INFO:niftynet:2021-10-31 19:55:19,860: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:55:19,861: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:55:19,862: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:55:19,863: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:55:19,871: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:55:19,917: initialised window instance
+INFO:niftynet:2021-10-31 19:55:19,917: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:55:19,922: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:55:19,927: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:55:20,109: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:55:20,131: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:55:20,148: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:55:20,674: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:55:20,949: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 19:55:20,949: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:55:20,951: yielding 36 locations from image
+INFO:niftynet:2021-10-31 19:55:24,876: inference iter 0,  (4.071s)
+WARNING:niftynet:2021-10-31 19:55:28,834: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:55:28,874: inference iter 1,  (3.947s)
+INFO:niftynet:2021-10-31 19:55:28,874: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:55:28,875: cleaning up...
+INFO:niftynet:2021-10-31 19:55:28,875: stopping sampling threads
+INFO:niftynet:2021-10-31 19:55:28,883: SegmentationApplication stopped (time in second 8.30).
+INFO:niftynet:2021-10-31 19:57:27,860: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:57:27,861: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:57:27,862: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:57:27,863: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:57:27,870: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:57:27,915: initialised window instance
+INFO:niftynet:2021-10-31 19:57:27,915: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:57:27,920: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:57:27,923: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:57:28,105: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:57:28,126: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:57:28,142: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:57:28,660: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:57:28,934: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 19:57:28,934: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:57:28,935: yielding 36 locations from image
+INFO:niftynet:2021-10-31 19:57:32,853: inference iter 0,  (4.081s)
+INFO:niftynet:2021-10-31 19:57:36,781: inference iter 1,  (3.906s)
+WARNING:niftynet:2021-10-31 19:57:36,791: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:57:36,830: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:57:36,830: cleaning up...
+INFO:niftynet:2021-10-31 19:57:36,831: stopping sampling threads
+INFO:niftynet:2021-10-31 19:57:36,838: SegmentationApplication stopped (time in second 8.27).
+INFO:niftynet:2021-10-31 19:58:15,862: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 19:58:15,863: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 19:58:15,864: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 19:58:15,864: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 19:58:15,871: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 19:58:15,919: initialised window instance
+INFO:niftynet:2021-10-31 19:58:15,919: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 19:58:15,924: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 19:58:15,927: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 19:58:16,109: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 19:58:16,130: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 19:58:16,147: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 19:58:16,699: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 19:58:16,920: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 19:58:16,921: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 19:58:16,922: yielding 36 locations from image
+INFO:niftynet:2021-10-31 19:58:20,911: inference iter 0,  (4.117s)
+WARNING:niftynet:2021-10-31 19:58:24,843: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 19:58:24,884: inference iter 1,  (3.919s)
+INFO:niftynet:2021-10-31 19:58:24,885: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 19:58:24,885: cleaning up...
+INFO:niftynet:2021-10-31 19:58:24,885: stopping sampling threads
+INFO:niftynet:2021-10-31 19:58:24,893: SegmentationApplication stopped (time in second 8.33).
+INFO:niftynet:2021-10-31 20:05:06,479: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:05:06,480: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:05:06,484: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:05:06,484: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:05:06,491: 
+
+Number of subjects 2, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (50.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 20:05:06,554: initialised window instance
+INFO:niftynet:2021-10-31 20:05:06,554: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 20:05:06,560: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 20:05:06,563: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 20:05:06,746: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 20:05:06,770: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 20:05:06,785: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 20:05:07,322: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 20:05:07,597: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 20:05:07,597: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 20:05:07,599: yielding 36 locations from image
+INFO:niftynet:2021-10-31 20:05:07,634: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 20:05:07,644: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 20:05:07,654: yielding 36 locations from image
+INFO:niftynet:2021-10-31 20:05:11,593: inference iter 0,  (4.140s)
+INFO:niftynet:2021-10-31 20:05:15,605: inference iter 1,  (3.943s)
+INFO:niftynet:2021-10-31 20:05:19,543: inference iter 2,  (3.930s)
+WARNING:niftynet:2021-10-31 20:05:23,471: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 20:05:23,511: inference iter 3,  (3.920s)
+INFO:niftynet:2021-10-31 20:05:23,511: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 20:05:23,512: cleaning up...
+INFO:niftynet:2021-10-31 20:05:23,512: stopping sampling threads
+INFO:niftynet:2021-10-31 20:05:23,520: SegmentationApplication stopped (time in second 16.29).
+INFO:niftynet:2021-10-31 20:06:26,076: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:06:26,076: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:06:26,077: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:06:26,078: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:06:26,085: 
+
+Number of subjects 2, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (50.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 20:06:26,149: initialised window instance
+INFO:niftynet:2021-10-31 20:06:26,150: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 20:06:26,155: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 20:06:26,158: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 20:06:26,349: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 20:06:26,371: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 20:06:26,388: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 20:06:26,909: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 20:06:27,186: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 20:06:27,186: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 20:06:27,188: yielding 36 locations from image
+INFO:niftynet:2021-10-31 20:06:27,224: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 20:06:27,233: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 20:06:27,235: yielding 36 locations from image
+INFO:niftynet:2021-10-31 20:06:31,154: inference iter 0,  (4.097s)
+WARNING:niftynet:2021-10-31 20:06:35,116: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 20:06:35,172: inference iter 1,  (3.951s)
+INFO:niftynet:2021-10-31 20:06:39,109: inference iter 2,  (3.928s)
+WARNING:niftynet:2021-10-31 20:06:43,023: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_originalniigz__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 20:06:43,064: inference iter 3,  (3.907s)
+INFO:niftynet:2021-10-31 20:06:43,064: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 20:06:43,067: cleaning up...
+INFO:niftynet:2021-10-31 20:06:43,068: stopping sampling threads
+INFO:niftynet:2021-10-31 20:06:43,075: SegmentationApplication stopped (time in second 16.26).
+INFO:niftynet:2021-10-31 20:07:57,094: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:07:57,095: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:07:57,100: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:07:57,101: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:09:38,570: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:09:38,571: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:09:38,572: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:09:38,572: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:12:11,365: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:12:11,366: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:12:11,366: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:12:11,367: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:15:49,818: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:15:49,819: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:15:49,820: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:15:49,820: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:19:41,187: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:19:41,187: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:19:41,188: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:19:41,189: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:26:42,929: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:26:42,930: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:26:42,931: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:26:42,931: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:29:46,807: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:29:46,808: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:29:46,808: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:29:46,809: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:31:34,576: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:31:34,577: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:31:34,578: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:31:34,578: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:33:34,502: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:33:34,503: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:33:34,504: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:33:34,505: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:34:37,830: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:34:37,831: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:34:37,831: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:34:37,832: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:35:26,725: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:35:26,726: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:35:26,726: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:35:26,727: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:36:01,023: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:36:01,024: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:36:01,025: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:36:01,025: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:38:18,468: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:38:18,469: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:38:18,470: Overwriting existing: "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv".
+INFO:niftynet:2021-10-31 20:38:18,470: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+INFO:niftynet:2021-10-31 20:40:44,249: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:40:44,250: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:40:44,251: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 20:40:44,255: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 20:40:44,259: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 20:40:44,311: initialised window instance
+INFO:niftynet:2021-10-31 20:40:44,311: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 20:40:44,316: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 20:40:44,319: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 20:40:44,505: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 20:40:44,526: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 20:40:44,542: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 20:40:45,067: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 20:40:45,332: grid sampling image sizes: {'image': (256, 256, 28, 1, 1)}
+INFO:niftynet:2021-10-31 20:40:45,332: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 20:40:45,333: yielding 28 locations from image
+INFO:niftynet:2021-10-31 20:40:49,412: inference iter 0,  (4.218s)
+WARNING:niftynet:2021-10-31 20:40:53,378: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 20:40:53,409: inference iter 1,  (3.958s)
+INFO:niftynet:2021-10-31 20:40:53,409: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 20:40:53,409: cleaning up...
+INFO:niftynet:2021-10-31 20:40:53,410: stopping sampling threads
+INFO:niftynet:2021-10-31 20:40:53,417: SegmentationApplication stopped (time in second 8.45).
+INFO:niftynet:2021-10-31 20:41:21,032: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:41:21,033: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:41:21,034: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 20:41:21,038: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 20:41:21,043: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 20:41:21,088: initialised window instance
+INFO:niftynet:2021-10-31 20:41:21,088: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 20:41:21,094: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 20:41:21,096: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 20:41:21,280: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 20:41:21,301: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 20:41:21,316: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 20:41:21,842: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 20:41:22,109: grid sampling image sizes: {'image': (256, 256, 32, 1, 1)}
+INFO:niftynet:2021-10-31 20:41:22,109: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 20:41:22,110: yielding 32 locations from image
+INFO:niftynet:2021-10-31 20:41:26,069: inference iter 0,  (4.115s)
+INFO:niftynet:2021-10-31 20:41:29,953: inference iter 1,  (3.865s)
+WARNING:niftynet:2021-10-31 20:41:29,962: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 20:41:30,004: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 20:41:30,004: cleaning up...
+INFO:niftynet:2021-10-31 20:41:30,005: stopping sampling threads
+INFO:niftynet:2021-10-31 20:41:30,013: SegmentationApplication stopped (time in second 8.26).
+INFO:niftynet:2021-10-31 20:45:33,100: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:45:33,101: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:45:33,101: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 20:45:33,105: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 20:45:33,109: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 20:45:33,154: initialised window instance
+INFO:niftynet:2021-10-31 20:45:33,154: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 20:45:33,160: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 20:45:33,163: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 20:45:33,345: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 20:45:33,366: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 20:45:33,382: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 20:45:33,902: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 20:45:34,172: grid sampling image sizes: {'image': (256, 256, 35, 1, 1)}
+INFO:niftynet:2021-10-31 20:45:34,172: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 20:45:34,177: yielding 35 locations from image
+INFO:niftynet:2021-10-31 20:45:38,084: inference iter 0,  (4.072s)
+INFO:niftynet:2021-10-31 20:45:41,974: inference iter 1,  (3.870s)
+WARNING:niftynet:2021-10-31 20:45:41,984: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 20:45:42,023: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 20:45:42,023: cleaning up...
+INFO:niftynet:2021-10-31 20:45:42,024: stopping sampling threads
+INFO:niftynet:2021-10-31 20:45:42,033: SegmentationApplication stopped (time in second 8.22).
+INFO:niftynet:2021-10-31 20:46:35,454: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 20:46:35,455: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 20:46:35,455: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 20:46:35,460: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 20:46:35,463: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 20:46:35,510: initialised window instance
+INFO:niftynet:2021-10-31 20:46:35,511: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 20:46:35,516: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 20:46:35,520: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 20:46:35,704: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 20:46:35,725: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 20:46:35,740: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 20:46:36,264: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 20:46:36,542: grid sampling image sizes: {'image': (256, 256, 42, 1, 1)}
+INFO:niftynet:2021-10-31 20:46:36,542: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 20:46:36,542: yielding 42 locations from image
+INFO:niftynet:2021-10-31 20:46:40,520: inference iter 0,  (4.142s)
+INFO:niftynet:2021-10-31 20:46:44,468: inference iter 1,  (3.925s)
+WARNING:niftynet:2021-10-31 20:46:44,479: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 20:46:44,537: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 20:46:44,537: cleaning up...
+INFO:niftynet:2021-10-31 20:46:44,538: stopping sampling threads
+INFO:niftynet:2021-10-31 20:46:44,546: SegmentationApplication stopped (time in second 8.37).
+INFO:niftynet:2021-10-31 21:10:35,225: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:10:35,226: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:10:35,227: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:10:35,231: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:10:35,235: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:10:35,287: initialised window instance
+INFO:niftynet:2021-10-31 21:10:35,287: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:10:35,293: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:10:35,295: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:10:35,480: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:10:35,501: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:10:35,520: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:10:36,053: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:10:36,331: grid sampling image sizes: {'image': (256, 256, 42, 1, 1)}
+INFO:niftynet:2021-10-31 21:10:36,331: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:10:36,332: yielding 42 locations from image
+INFO:niftynet:2021-10-31 21:10:40,317: inference iter 0,  (4.152s)
+INFO:niftynet:2021-10-31 21:10:44,225: inference iter 1,  (3.885s)
+WARNING:niftynet:2021-10-31 21:10:44,236: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:10:44,279: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:10:44,279: cleaning up...
+INFO:niftynet:2021-10-31 21:10:44,280: stopping sampling threads
+INFO:niftynet:2021-10-31 21:10:44,288: SegmentationApplication stopped (time in second 8.33).
+INFO:niftynet:2021-10-31 21:13:16,833: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:13:16,834: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:13:16,835: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:13:16,839: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:13:16,843: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:13:16,895: initialised window instance
+INFO:niftynet:2021-10-31 21:13:16,895: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:13:16,901: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:13:16,903: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:13:17,087: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:13:17,108: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:13:17,124: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:13:17,640: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:13:17,914: grid sampling image sizes: {'image': (256, 256, 42, 1, 1)}
+INFO:niftynet:2021-10-31 21:13:17,914: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:13:17,915: yielding 42 locations from image
+INFO:niftynet:2021-10-31 21:13:21,862: inference iter 0,  (4.088s)
+WARNING:niftynet:2021-10-31 21:13:25,728: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:13:25,775: inference iter 1,  (3.854s)
+INFO:niftynet:2021-10-31 21:13:25,776: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:13:25,777: cleaning up...
+INFO:niftynet:2021-10-31 21:13:25,777: stopping sampling threads
+INFO:niftynet:2021-10-31 21:13:25,785: SegmentationApplication stopped (time in second 8.24).
+INFO:niftynet:2021-10-31 21:16:22,568: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:16:22,569: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:16:22,570: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:16:22,574: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:16:22,577: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:16:22,626: initialised window instance
+INFO:niftynet:2021-10-31 21:16:22,626: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:16:22,632: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:16:22,635: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:16:22,822: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:16:22,842: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:16:22,857: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:16:23,418: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:16:23,643: grid sampling image sizes: {'image': (256, 256, 42, 1, 1)}
+INFO:niftynet:2021-10-31 21:16:23,643: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:16:23,644: yielding 42 locations from image
+INFO:niftynet:2021-10-31 21:16:27,525: inference iter 0,  (4.030s)
+INFO:niftynet:2021-10-31 21:16:31,444: inference iter 1,  (3.896s)
+WARNING:niftynet:2021-10-31 21:16:31,455: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:16:31,512: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:16:31,512: cleaning up...
+INFO:niftynet:2021-10-31 21:16:31,512: stopping sampling threads
+INFO:niftynet:2021-10-31 21:16:31,520: SegmentationApplication stopped (time in second 8.24).
+INFO:niftynet:2021-10-31 21:21:24,630: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:21:24,631: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:21:24,631: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:21:24,636: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:21:24,640: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:21:24,689: initialised window instance
+INFO:niftynet:2021-10-31 21:21:24,689: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:21:24,694: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:21:24,697: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:21:24,885: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:21:24,906: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:21:24,922: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:21:25,434: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:21:25,703: grid sampling image sizes: {'image': (256, 256, 42, 1, 1)}
+INFO:niftynet:2021-10-31 21:21:25,704: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:21:25,705: yielding 42 locations from image
+INFO:niftynet:2021-10-31 21:21:29,628: inference iter 0,  (4.062s)
+WARNING:niftynet:2021-10-31 21:21:33,518: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:21:33,565: inference iter 1,  (3.879s)
+INFO:niftynet:2021-10-31 21:21:33,565: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:21:33,565: cleaning up...
+INFO:niftynet:2021-10-31 21:21:33,566: stopping sampling threads
+INFO:niftynet:2021-10-31 21:21:33,574: SegmentationApplication stopped (time in second 8.23).
+INFO:niftynet:2021-10-31 21:22:29,995: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:22:29,996: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:22:29,998: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:22:30,003: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:22:30,006: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:22:30,065: initialised window instance
+INFO:niftynet:2021-10-31 21:22:30,065: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:22:30,070: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:22:30,073: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:22:30,257: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:22:30,278: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:22:30,295: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:22:30,814: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:22:31,094: grid sampling image sizes: {'image': (256, 256, 52, 1, 1)}
+INFO:niftynet:2021-10-31 21:22:31,094: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:22:31,095: yielding 52 locations from image
+INFO:niftynet:2021-10-31 21:22:35,053: inference iter 0,  (4.100s)
+INFO:niftynet:2021-10-31 21:22:38,965: inference iter 1,  (3.903s)
+WARNING:niftynet:2021-10-31 21:22:42,877: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:22:42,932: inference iter 2,  (3.900s)
+INFO:niftynet:2021-10-31 21:22:42,932: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:22:42,932: cleaning up...
+INFO:niftynet:2021-10-31 21:22:42,933: stopping sampling threads
+INFO:niftynet:2021-10-31 21:22:42,941: SegmentationApplication stopped (time in second 12.22).
+INFO:niftynet:2021-10-31 21:26:27,121: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:26:27,121: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:26:27,122: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:26:27,126: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:26:27,130: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:26:27,185: initialised window instance
+INFO:niftynet:2021-10-31 21:26:27,186: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:26:27,192: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:26:27,194: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:26:27,381: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:26:27,401: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:26:27,421: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:26:27,976: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:26:28,206: grid sampling image sizes: {'image': (256, 256, 52, 1, 1)}
+INFO:niftynet:2021-10-31 21:26:28,207: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:26:28,208: yielding 52 locations from image
+INFO:niftynet:2021-10-31 21:26:32,094: inference iter 0,  (4.041s)
+INFO:niftynet:2021-10-31 21:26:36,039: inference iter 1,  (3.918s)
+INFO:niftynet:2021-10-31 21:26:40,021: inference iter 2,  (3.971s)
+WARNING:niftynet:2021-10-31 21:26:40,031: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:26:40,090: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:26:40,090: cleaning up...
+INFO:niftynet:2021-10-31 21:26:40,090: stopping sampling threads
+INFO:niftynet:2021-10-31 21:26:40,099: SegmentationApplication stopped (time in second 12.25).
+INFO:niftynet:2021-10-31 21:30:53,389: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:30:53,389: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:30:53,392: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:30:53,397: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:30:53,400: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:30:53,460: initialised window instance
+INFO:niftynet:2021-10-31 21:30:53,460: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:30:53,465: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:30:53,468: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:30:53,653: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:30:53,673: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:30:53,689: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:30:54,245: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:30:54,475: grid sampling image sizes: {'image': (256, 256, 52, 1, 1)}
+INFO:niftynet:2021-10-31 21:30:54,476: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:30:54,480: yielding 52 locations from image
+INFO:niftynet:2021-10-31 21:30:58,546: inference iter 0,  (4.198s)
+INFO:niftynet:2021-10-31 21:31:02,451: inference iter 1,  (3.896s)
+WARNING:niftynet:2021-10-31 21:31:06,346: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:31:06,400: inference iter 2,  (3.886s)
+INFO:niftynet:2021-10-31 21:31:06,400: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:31:06,400: cleaning up...
+INFO:niftynet:2021-10-31 21:31:06,400: stopping sampling threads
+INFO:niftynet:2021-10-31 21:31:06,409: SegmentationApplication stopped (time in second 12.30).
+INFO:niftynet:2021-10-31 21:32:47,513: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:32:47,513: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:32:47,514: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:32:47,519: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:32:47,522: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:32:47,577: initialised window instance
+INFO:niftynet:2021-10-31 21:32:47,577: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:32:47,583: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:32:47,585: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:32:47,774: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:32:47,797: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:32:47,815: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:32:48,410: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:32:48,653: grid sampling image sizes: {'image': (256, 256, 52, 1, 1)}
+INFO:niftynet:2021-10-31 21:32:48,653: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:32:48,654: yielding 52 locations from image
+INFO:niftynet:2021-10-31 21:32:52,616: inference iter 0,  (4.125s)
+INFO:niftynet:2021-10-31 21:32:56,536: inference iter 1,  (3.893s)
+INFO:niftynet:2021-10-31 21:33:00,403: inference iter 2,  (3.857s)
+WARNING:niftynet:2021-10-31 21:33:00,413: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:33:00,469: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:33:00,469: cleaning up...
+INFO:niftynet:2021-10-31 21:33:00,469: stopping sampling threads
+INFO:niftynet:2021-10-31 21:33:00,477: SegmentationApplication stopped (time in second 12.20).
+INFO:niftynet:2021-10-31 21:40:08,244: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:40:08,245: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:40:08,246: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:40:08,251: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:40:08,254: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:40:08,311: initialised window instance
+INFO:niftynet:2021-10-31 21:40:08,311: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:40:08,317: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:40:08,320: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:40:08,503: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:40:08,525: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:40:08,540: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:40:09,063: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:40:09,342: grid sampling image sizes: {'image': (256, 256, 52, 1, 1)}
+INFO:niftynet:2021-10-31 21:40:09,342: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:40:09,345: yielding 52 locations from image
+INFO:niftynet:2021-10-31 21:40:13,275: inference iter 0,  (4.101s)
+INFO:niftynet:2021-10-31 21:40:17,276: inference iter 1,  (3.972s)
+INFO:niftynet:2021-10-31 21:40:21,216: inference iter 2,  (3.931s)
+WARNING:niftynet:2021-10-31 21:40:21,225: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:40:21,280: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:40:21,281: cleaning up...
+INFO:niftynet:2021-10-31 21:40:21,281: stopping sampling threads
+INFO:niftynet:2021-10-31 21:40:21,288: SegmentationApplication stopped (time in second 12.32).
+INFO:niftynet:2021-10-31 21:40:59,678: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:40:59,679: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:40:59,680: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:40:59,684: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:40:59,690: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:40:59,739: initialised window instance
+INFO:niftynet:2021-10-31 21:40:59,739: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:40:59,745: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:40:59,748: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:40:59,935: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:40:59,956: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:40:59,973: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:41:00,511: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:41:00,795: grid sampling image sizes: {'image': (256, 256, 42, 1, 1)}
+INFO:niftynet:2021-10-31 21:41:00,796: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:41:00,797: yielding 42 locations from image
+INFO:niftynet:2021-10-31 21:41:04,846: inference iter 0,  (4.192s)
+WARNING:niftynet:2021-10-31 21:41:08,843: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:41:08,886: inference iter 1,  (3.984s)
+INFO:niftynet:2021-10-31 21:41:08,887: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:41:08,889: cleaning up...
+INFO:niftynet:2021-10-31 21:41:08,890: stopping sampling threads
+INFO:niftynet:2021-10-31 21:41:08,897: SegmentationApplication stopped (time in second 8.49).
+INFO:niftynet:2021-10-31 21:41:53,193: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:41:53,194: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:41:53,195: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:41:53,199: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:41:53,202: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:41:53,252: initialised window instance
+INFO:niftynet:2021-10-31 21:41:53,252: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:41:53,257: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:41:53,260: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:41:53,442: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:41:53,463: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:41:53,479: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:41:54,005: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:41:54,280: grid sampling image sizes: {'image': (256, 256, 42, 1, 1)}
+INFO:niftynet:2021-10-31 21:41:54,280: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:41:54,281: yielding 42 locations from image
+INFO:niftynet:2021-10-31 21:41:58,206: inference iter 0,  (4.066s)
+WARNING:niftynet:2021-10-31 21:42:02,094: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:42:02,137: inference iter 1,  (3.876s)
+INFO:niftynet:2021-10-31 21:42:02,138: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:42:02,138: cleaning up...
+INFO:niftynet:2021-10-31 21:42:02,138: stopping sampling threads
+INFO:niftynet:2021-10-31 21:42:02,145: SegmentationApplication stopped (time in second 8.23).
+INFO:niftynet:2021-10-31 21:44:32,749: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:44:32,750: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:44:32,751: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:44:32,758: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:44:32,762: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:44:32,806: initialised window instance
+INFO:niftynet:2021-10-31 21:44:32,807: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:44:32,812: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:44:32,815: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:44:32,999: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:44:33,021: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:44:33,038: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:44:33,554: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:44:33,819: grid sampling image sizes: {'image': (256, 256, 29, 1, 1)}
+INFO:niftynet:2021-10-31 21:44:33,819: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:44:33,820: yielding 29 locations from image
+INFO:niftynet:2021-10-31 21:44:37,683: inference iter 0,  (4.019s)
+INFO:niftynet:2021-10-31 21:44:41,584: inference iter 1,  (3.882s)
+WARNING:niftynet:2021-10-31 21:44:41,593: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:44:41,636: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:44:41,636: cleaning up...
+INFO:niftynet:2021-10-31 21:44:41,636: stopping sampling threads
+INFO:niftynet:2021-10-31 21:44:41,644: SegmentationApplication stopped (time in second 8.18).
+INFO:niftynet:2021-10-31 21:47:53,098: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:47:53,099: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:47:53,099: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:47:53,103: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:47:53,107: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:47:53,152: initialised window instance
+INFO:niftynet:2021-10-31 21:47:53,152: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:47:53,158: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:47:53,161: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:47:53,343: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:47:53,367: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:47:53,382: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:47:53,903: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:47:54,169: grid sampling image sizes: {'image': (256, 256, 29, 1, 1)}
+INFO:niftynet:2021-10-31 21:47:54,169: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:47:54,170: yielding 29 locations from image
+INFO:niftynet:2021-10-31 21:47:58,083: inference iter 0,  (4.068s)
+INFO:niftynet:2021-10-31 21:48:02,110: inference iter 1,  (4.009s)
+WARNING:niftynet:2021-10-31 21:48:02,118: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:48:02,152: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:48:02,153: cleaning up...
+INFO:niftynet:2021-10-31 21:48:02,153: stopping sampling threads
+INFO:niftynet:2021-10-31 21:48:02,160: SegmentationApplication stopped (time in second 8.35).
+INFO:niftynet:2021-10-31 21:49:49,829: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:49:49,830: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:49:49,830: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:49:49,834: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:49:49,838: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:49:49,879: initialised window instance
+INFO:niftynet:2021-10-31 21:49:49,879: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:49:49,884: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:49:49,888: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:49:50,070: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:49:50,089: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:49:50,107: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:49:50,676: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:49:50,904: grid sampling image sizes: {'image': (256, 256, 29, 1, 1)}
+INFO:niftynet:2021-10-31 21:49:50,904: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:49:50,904: yielding 29 locations from image
+INFO:niftynet:2021-10-31 21:49:54,828: inference iter 0,  (4.075s)
+INFO:niftynet:2021-10-31 21:49:58,687: inference iter 1,  (3.840s)
+WARNING:niftynet:2021-10-31 21:49:58,695: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:49:58,725: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:49:58,725: cleaning up...
+INFO:niftynet:2021-10-31 21:49:58,725: stopping sampling threads
+INFO:niftynet:2021-10-31 21:49:58,733: SegmentationApplication stopped (time in second 8.19).
+INFO:niftynet:2021-10-31 21:53:23,354: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:53:23,355: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:53:23,355: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:53:23,360: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:53:23,363: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:53:23,407: initialised window instance
+INFO:niftynet:2021-10-31 21:53:23,407: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:53:23,413: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:53:23,416: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:53:23,599: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:53:23,621: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:53:23,637: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:53:24,148: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:53:24,420: grid sampling image sizes: {'image': (256, 256, 29, 1, 1)}
+INFO:niftynet:2021-10-31 21:53:24,421: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:53:24,421: yielding 29 locations from image
+INFO:niftynet:2021-10-31 21:53:28,317: inference iter 0,  (4.036s)
+WARNING:niftynet:2021-10-31 21:53:32,202: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:53:32,237: inference iter 1,  (3.877s)
+INFO:niftynet:2021-10-31 21:53:32,237: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:53:32,238: cleaning up...
+INFO:niftynet:2021-10-31 21:53:32,238: stopping sampling threads
+INFO:niftynet:2021-10-31 21:53:32,246: SegmentationApplication stopped (time in second 8.19).
+INFO:niftynet:2021-10-31 21:58:01,008: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 21:58:01,009: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 21:58:01,010: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 21:58:01,015: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 21:58:01,020: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 21:58:01,067: initialised window instance
+INFO:niftynet:2021-10-31 21:58:01,067: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 21:58:01,080: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 21:58:01,083: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 21:58:01,267: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 21:58:01,287: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 21:58:01,303: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 21:58:01,862: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 21:58:02,083: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 21:58:02,083: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 21:58:02,084: yielding 36 locations from image
+INFO:niftynet:2021-10-31 21:58:06,055: inference iter 0,  (4.097s)
+WARNING:niftynet:2021-10-31 21:58:10,014: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 21:58:10,055: inference iter 1,  (3.949s)
+INFO:niftynet:2021-10-31 21:58:10,055: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 21:58:10,055: cleaning up...
+INFO:niftynet:2021-10-31 21:58:10,056: stopping sampling threads
+INFO:niftynet:2021-10-31 21:58:10,064: SegmentationApplication stopped (time in second 8.33).
+INFO:niftynet:2021-10-31 22:01:04,786: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 22:01:04,786: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 22:01:04,787: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 22:01:04,791: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 22:01:04,794: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 22:01:04,839: initialised window instance
+INFO:niftynet:2021-10-31 22:01:04,840: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 22:01:04,845: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 22:01:04,849: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 22:01:05,030: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 22:01:05,054: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 22:01:05,069: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 22:01:05,624: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 22:01:05,845: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 22:01:05,845: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 22:01:05,850: yielding 36 locations from image
+INFO:niftynet:2021-10-31 22:01:09,790: inference iter 0,  (4.091s)
+INFO:niftynet:2021-10-31 22:01:13,676: inference iter 1,  (3.865s)
+WARNING:niftynet:2021-10-31 22:01:13,687: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 22:01:13,728: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 22:01:13,728: cleaning up...
+INFO:niftynet:2021-10-31 22:01:13,729: stopping sampling threads
+INFO:niftynet:2021-10-31 22:01:13,738: SegmentationApplication stopped (time in second 8.24).
+INFO:niftynet:2021-10-31 22:02:40,939: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 22:02:40,940: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 22:02:40,940: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 22:02:40,944: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 22:02:40,949: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 22:02:40,997: initialised window instance
+INFO:niftynet:2021-10-31 22:02:40,997: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 22:02:41,003: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 22:02:41,005: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 22:02:41,192: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 22:02:41,213: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 22:02:41,229: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 22:02:41,749: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 22:02:42,014: grid sampling image sizes: {'image': (256, 256, 36, 1, 1)}
+INFO:niftynet:2021-10-31 22:02:42,015: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 22:02:42,015: yielding 36 locations from image
+INFO:niftynet:2021-10-31 22:02:45,911: inference iter 0,  (4.033s)
+WARNING:niftynet:2021-10-31 22:02:49,862: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 22:02:49,902: inference iter 1,  (3.939s)
+INFO:niftynet:2021-10-31 22:02:49,903: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 22:02:49,903: cleaning up...
+INFO:niftynet:2021-10-31 22:02:49,903: stopping sampling threads
+INFO:niftynet:2021-10-31 22:02:49,911: SegmentationApplication stopped (time in second 8.25).
+INFO:niftynet:2021-10-31 22:04:43,804: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 22:04:43,805: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 22:04:43,805: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 22:04:43,810: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 22:04:43,813: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 22:04:43,860: initialised window instance
+INFO:niftynet:2021-10-31 22:04:43,860: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 22:04:43,866: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 22:04:43,869: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 22:04:44,049: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 22:04:44,070: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 22:04:44,086: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 22:04:44,648: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 22:04:44,874: grid sampling image sizes: {'image': (256, 256, 34, 1, 1)}
+INFO:niftynet:2021-10-31 22:04:44,875: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 22:04:44,876: yielding 34 locations from image
+INFO:niftynet:2021-10-31 22:04:48,886: inference iter 0,  (4.140s)
+WARNING:niftynet:2021-10-31 22:04:52,854: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 22:04:52,891: inference iter 1,  (3.957s)
+INFO:niftynet:2021-10-31 22:04:52,891: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 22:04:52,892: cleaning up...
+INFO:niftynet:2021-10-31 22:04:52,892: stopping sampling threads
+INFO:niftynet:2021-10-31 22:04:52,900: SegmentationApplication stopped (time in second 8.39).
+INFO:niftynet:2021-10-31 22:20:32,907: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 22:20:32,908: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 22:20:32,908: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 22:20:32,914: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 22:20:32,918: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 22:20:32,964: initialised window instance
+INFO:niftynet:2021-10-31 22:20:32,964: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 22:20:32,970: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 22:20:32,972: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 22:20:33,158: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 22:20:33,180: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 22:20:33,197: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 22:20:33,725: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 22:20:34,001: grid sampling image sizes: {'image': (256, 256, 34, 1, 1)}
+INFO:niftynet:2021-10-31 22:20:34,002: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 22:20:34,003: yielding 34 locations from image
+INFO:niftynet:2021-10-31 22:20:37,918: inference iter 0,  (4.078s)
+INFO:niftynet:2021-10-31 22:20:41,829: inference iter 1,  (3.890s)
+WARNING:niftynet:2021-10-31 22:20:41,839: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 22:20:41,876: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 22:20:41,877: cleaning up...
+INFO:niftynet:2021-10-31 22:20:41,877: stopping sampling threads
+INFO:niftynet:2021-10-31 22:20:41,885: SegmentationApplication stopped (time in second 8.25).
+INFO:niftynet:2021-10-31 22:22:22,823: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 22:22:22,824: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 22:22:22,825: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 22:22:22,829: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 22:22:22,833: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 22:22:22,884: initialised window instance
+INFO:niftynet:2021-10-31 22:22:22,885: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 22:22:22,891: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 22:22:22,894: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 22:22:23,083: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 22:22:23,107: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 22:22:23,126: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 22:22:23,694: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 22:22:23,923: grid sampling image sizes: {'image': (256, 256, 34, 1, 1)}
+INFO:niftynet:2021-10-31 22:22:23,924: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 22:22:23,925: yielding 34 locations from image
+INFO:niftynet:2021-10-31 22:22:27,852: inference iter 0,  (4.059s)
+WARNING:niftynet:2021-10-31 22:22:31,741: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 22:22:31,778: inference iter 1,  (3.880s)
+INFO:niftynet:2021-10-31 22:22:31,778: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 22:22:31,778: cleaning up...
+INFO:niftynet:2021-10-31 22:22:31,779: stopping sampling threads
+INFO:niftynet:2021-10-31 22:22:31,786: SegmentationApplication stopped (time in second 8.22).
+INFO:niftynet:2021-10-31 22:25:00,561: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 22:25:00,562: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 22:25:00,563: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 22:25:00,567: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 22:25:00,571: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 22:25:00,619: initialised window instance
+INFO:niftynet:2021-10-31 22:25:00,619: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 22:25:00,625: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 22:25:00,627: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 22:25:00,810: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 22:25:00,831: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 22:25:00,848: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 22:25:01,410: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 22:25:01,627: grid sampling image sizes: {'image': (256, 256, 32, 1, 1)}
+INFO:niftynet:2021-10-31 22:25:01,627: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 22:25:01,628: yielding 32 locations from image
+INFO:niftynet:2021-10-31 22:25:05,558: inference iter 0,  (4.075s)
+INFO:niftynet:2021-10-31 22:25:09,458: inference iter 1,  (3.879s)
+WARNING:niftynet:2021-10-31 22:25:09,467: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 22:25:09,508: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 22:25:09,508: cleaning up...
+INFO:niftynet:2021-10-31 22:25:09,508: stopping sampling threads
+INFO:niftynet:2021-10-31 22:25:09,517: SegmentationApplication stopped (time in second 8.24).
+INFO:niftynet:2021-10-31 22:47:02,126: set initial_iter to 21663 based on checkpoints
+INFO:niftynet:2021-10-31 22:47:02,126: `csv_file = ` not found, writing to "C:\Users\HUS56590733\Desktop\sah_website\job\img.csv" instead.
+INFO:niftynet:2021-10-31 22:47:02,127: [img] search file folders, writing csv file C:\Users\HUS56590733\Desktop\sah_website\job\img.csv
+WARNING:niftynet:2021-10-31 22:47:02,131: To split dataset into training/validation, please make sure "exclude_fraction_for_validation" parameter is set to a float in between 0 and 1. Current value: 0.0.
+INFO:niftynet:2021-10-31 22:47:02,135: 
+
+Number of subjects 1, input section names: ['subject_id', 'img']
+Dataset partitioning:
+-- training 1 cases (100.00%),
+-- validation 0 cases (0.00%),
+-- inference 0 cases (0.00%).
+
+INFO:niftynet:2021-10-31 22:47:02,204: initialised window instance
+INFO:niftynet:2021-10-31 22:47:02,204: initialised grid sampler {'image': (1, 256, 256, 1, 1, 1), 'image_location': (1, 7)}
+WARNING:niftynet:2021-10-31 22:47:02,221: From C:\Users\HUS56590733\Anaconda3\envs\py36\lib\site-packages\tensorflow_core\python\util\deprecation.py:507: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with distribution=normal is deprecated and will be removed in a future version.
+Instructions for updating:
+`normal` is a deprecated alias for `truncated_normal`
+INFO:niftynet:2021-10-31 22:47:02,224: Initialising dataset from generator...
+WARNING:niftynet:2021-10-31 22:47:02,410: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\engine\image_window_dataset.py:197: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:niftynet:2021-10-31 22:47:02,441: 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:niftynet:2021-10-31 22:47:02,458: From C:\Users\HUS56590733\Desktop\sah_website\niftynet\layer\activation.py:68: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:niftynet:2021-10-31 22:47:02,989: Restoring parameters from C:\Users\HUS56590733\Desktop\sah_website\job\models\model.ckpt-21663
+INFO:niftynet:2021-10-31 22:47:03,271: grid sampling image sizes: {'image': (256, 256, 42, 1, 1)}
+INFO:niftynet:2021-10-31 22:47:03,271: grid sampling window sizes: {'image': (256, 256, 1, 1, 1)}
+INFO:niftynet:2021-10-31 22:47:03,272: yielding 42 locations from image
+INFO:niftynet:2021-10-31 22:47:07,347: inference iter 0,  (4.220s)
+WARNING:niftynet:2021-10-31 22:47:11,306: File C:\Users\HUS56590733\Desktop\sah_website\window_seg_original__niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2021-10-31 22:47:11,374: inference iter 1,  (3.931s)
+INFO:niftynet:2021-10-31 22:47:11,375: stopping -- event handler: OutputInterpreter.
+INFO:niftynet:2021-10-31 22:47:11,375: cleaning up...
+INFO:niftynet:2021-10-31 22:47:11,375: stopping sampling threads
+INFO:niftynet:2021-10-31 22:47:11,382: SegmentationApplication stopped (time in second 8.48).
