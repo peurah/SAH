@@ -1,3 +1,4 @@
+streamlit
 absl-py==0.10.0
 astor==0.8.1
 blinker==1.4
