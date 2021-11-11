@@ -36,4 +36,4 @@ wrapt==1.12.1
 zipp==3.1.0
 streamlit==1.1.0
 matplotlib
-opencv-python-headless==4.5.3.56
+opencv-python-headless
